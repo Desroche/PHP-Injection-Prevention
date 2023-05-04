@@ -6,7 +6,7 @@
 <body>
 
 <?php
-require_once 'connect.php';
+require_once 'login.php';
 
 if (isset($_POST['rank'])) {
     $dsn = "mysql:host=" . HOST . ";dbname=" . DB;
